@@ -45,7 +45,7 @@ if __name__ == '__main__':
     #etiqueta hora
     e1=tk.Label(ventana,text="Hora: ", bg="black", fg="white")
     e1.pack(padx=5, pady=5, ipadx=5, ipady=5, fill=tk.X)
-    entradahora=tk.Label(ventana, bg="white", textvariable=0)
+    entradahora=tk.Label(ventana, bg="white", textvariable=cronometro)
     entradahora.pack(padx=5, pady=6, ipadx=5, ipady=5, fill=tk.X)
 
     #etiqueta minutos
